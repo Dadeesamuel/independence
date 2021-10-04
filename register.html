@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTER</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
 </head>
 <body style="background-color: yellowgreen;">
 
@@ -13,7 +15,7 @@
         <a href="about.html">ABOUT</a>
         <a href="history.html">HISTORY</a></div>
     
-        <div style="margin-left: 720px;"> <a href="contact.html">CONTACT</a>
+        <div style="margin-left: 0px;"> <a href="contact.html">CONTACT</a>
               <a href="register.html">REGISTER</a></div>
     
               <div style="display: flex;">
@@ -43,11 +45,9 @@
             <p> ( A separate form for personal historyis no longer required.)</p>
         </div>
         
-        <form style="font-size: 120%; color: rgb(0, 100, 0);">
+       <form style="font-size: 120%; color: rgb(0, 100, 0);">
 <fieldset>
     <legend style="color: white; font-size: 50px;">BIO-DATA</legend>
-           
-
                  <label for="sname">SURNAME :</label>
                  <input type="text" id="sname"placeholder="surname" style="margin-left: 2%;" ><br>
 
@@ -72,14 +72,14 @@
 
                  <label for="address"> Address: </label>
                  <textarea></textarea>
-
-                </fieldset><br>
+                
+                    </fieldset><br>
 
 
                 <FIeldset>
                     <legend style="font-size: 220%; color: white;">Parent information</legend>
                 
-                    <label for="sname">SURNAME :</label>
+                 <label for="sname">SURNAME :</label>
                     <input type="text" id="sname"placeholder="surname" style="margin-left: 2%;" ><br>
    
                     <label for="fname">FIRST NAME :</label>
@@ -87,17 +87,22 @@
    
                     <label for="fname">MIDDLE NAME :</label>
                     <input type="text" id="Mname"placeholder="middlename" ><br> 
+                
                 </FIeldset>
                 <br>
-              <label for="payment details">payment details</label> <br>
+            <label for="payment details">payment details</label> <br>
                 <input type="radio">cash <br>
                 <input type="radio">cheque<br>
                 <input type="radio">card<br>
                 <input type="reset" placeholder="reset">
                 <input type="submit" placeholder="submit"><br>
-
+           <fieldset>
+               <legend>curriculum vital</legend>
+               <input type="file" ><br>
+               <input type="submit">
+           </fieldset>
             </form>
-        
+      
         
 </body>
 </html>
