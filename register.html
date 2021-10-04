@@ -42,8 +42,11 @@
                <p > This form must be completed in full. Your application may be rejected for wrong and misleading information. </p>
             <p> ( A separate form for personal historyis no longer required.)</p>
         </div>
-
-            <form style="font-size: 120%;">
+        
+        <form style="font-size: 120%; color: rgb(0, 100, 0);">
+<fieldset>
+    <legend style="color: white; font-size: 50px;">BIO-DATA</legend>
+           
 
                  <label for="sname">SURNAME :</label>
                  <input type="text" id="sname"placeholder="surname" style="margin-left: 2%;" ><br>
@@ -54,19 +57,47 @@
                  <label for="fname">MIDDLE NAME :</label>
                  <input type="text" id="Mname"placeholder="middlename" ><br>
 
-                 <label for="sex">SEX :</label>
-                 <input type="text" id="sex"placeholder="sex" style="margin-left: 5%;"><br>
+                 <label for="gender">GENDER :</label>
+                 <input type="radio" id="gender"name="male" value="male">male
+                 <input type="radio" id="female" name="Female" value="female">female<br>
 
                  <label for="mstatus">MARITAL STATUS :</label>
-                 <input type="text" id="mstatus"placeholder="marital-status" ><br>
+                 <input type="text" id="mstatus"placeholder="marital-status" /><br>
 
                  <label for="age">AGE :</label>
-                 <input type="text" id="age"placeholder="age" ><br>
+                 <input type="text" id="age"placeholder="age" style="margin-left: 50px;" ><br>
           
+                 <label for="DOB">Date of Birth: </label>
+                 <input type="date" id="DOB" placeholder="date of birth" required> <br>
 
+                 <label for="address"> Address: </label>
+                 <textarea></textarea>
+
+                </fieldset><br>
+
+
+                <FIeldset>
+                    <legend style="font-size: 220%; color: white;">Parent information</legend>
+                
+                    <label for="sname">SURNAME :</label>
+                    <input type="text" id="sname"placeholder="surname" style="margin-left: 2%;" ><br>
+   
+                    <label for="fname">FIRST NAME :</label>
+                    <input type="text" id="fname"placeholder="firstname" ><br>
+   
+                    <label for="fname">MIDDLE NAME :</label>
+                    <input type="text" id="Mname"placeholder="middlename" ><br> 
+                </FIeldset>
+                <br>
+              <label for="payment details">payment details</label> <br>
+                <input type="radio">cash <br>
+                <input type="radio">cheque<br>
+                <input type="radio">card<br>
+                <input type="reset" placeholder="reset">
+                <input type="submit" placeholder="submit"><br>
 
             </form>
- 
+        
         
 </body>
 </html>
